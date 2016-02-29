@@ -1,0 +1,43 @@
+{
+  "name": "connect-crew",
+  "version": "0.0.0",
+  "description": "Connect/Express middleware to validate if a user belongs to a group.",
+  "license": "MIT",
+  "repository": "chefsplate/connect-crew",
+  "author": {
+    "name": "Helder Santana",
+    "url": "chefsplate.com"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "scripts": {
+    "start": "onchange '*.js' 'lib/**/*.js' -- npm run test",
+    "test": "xo --esnext && ava --tap | tap-spec"
+  },
+  "files": [
+    "index.js",
+    "lib"
+  ],
+  "keywords": [
+    "connect",
+    "express",
+    "passport",
+    "groups",
+    "user",
+    "permission",
+    "authentication",
+    "authenticate",
+    "auth",
+    "acl"
+  ],
+  "dependencies": {
+    "dot-prop": "^2.3.0"
+  },
+  "devDependencies": {
+    "ava": "^0.11.0",
+    "onchange": "^2.0.0",
+    "tap-spec": "^4.1.1",
+    "xo": "^0.12.1"
+  }
+}
