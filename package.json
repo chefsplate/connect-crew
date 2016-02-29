@@ -1,6 +1,6 @@
 {
   "name": "connect-crew",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Connect/Express middleware to validate if a user belongs to a group.",
   "license": "MIT",
   "repository": "chefsplate/connect-crew",
