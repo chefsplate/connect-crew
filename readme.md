@@ -12,7 +12,7 @@ $ npm install --save connect-crew
 ### Requirements
 * [Connect](http://www.senchalabs.org/connect/) or [Express](http://expressjs.com/)
 * Node.js 4+
-* An auth middleware like [passport](http://passportjs.org/)
+* An authentication middleware like [passport](http://passportjs.org/)
 
 ## Usage
 
