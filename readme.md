@@ -75,7 +75,7 @@ Default: `{ code: 401, message: 'Unauthorized'}`
 
 Error message when user doesn't belong to a group.
 
-#### Default options
+#### Set default options
 
 ```js
 crew.options({
